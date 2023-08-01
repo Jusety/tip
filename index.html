@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>tip calculator</title>
+</head>
+<body>
+	<div class="container">
+		<div class="tip">
+			<h3>Tip calculator</h3>
+			<wor>Bill Amount $</wor> <br>
+			<input type="number" id="bill"><br>
+			<wor>Number of Guests</wor> <br>
+			<input type="number" id="numOG"><br>
+			<wor>Service Quality</wor> <br>
+			<select id="serve">
+				<option value="30">30% - Awfully great!</option>
+				<option value="20">20% - Ok</option>
+				<option value="10">10% - Bad</option>
+				<option value="0">Terrible!</option>
+			</select><br>
+			<button id="btn">calculate</button>
+			<div id="tip-amount"></div>
+		</div>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
